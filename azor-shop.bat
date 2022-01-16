@@ -1,0 +1,1 @@
+./liquibase.bat --classpath=scripts --logLevel debug --defaultsFile=azor-shop.properties %*
