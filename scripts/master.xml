@@ -8,12 +8,9 @@
     http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.6.xsd ">
 
     <include file="create.init.tables.xml" relativeToChangelogFile="true"/>
-<!--    <include file="create.manufacturer.table.xml" relativeToChangelogFile="true"/>-->
-<!--    <include file="product.add.column.manufacturer.id.xml" relativeToChangelogFile="true"/>-->
-<!--    <include file="create.user.role.auth.tables.xml" relativeToChangelogFile="true"/>-->
-
-<!--    <include file="manufacturer.add.service.info.columns.xml" relativeToChangelogFile="true"/>-->
-
-<!--    <include file="category.add.service.info.columns.xml" relativeToChangelogFile="true"/>-->
-
+    <include file="create.manufacturer.table.xml" relativeToChangelogFile="true"/>
+    <include file="product.add.column.manufacturer.id.xml" relativeToChangelogFile="true"/>
+    <include file="create.user.role.authority.tables.xml" relativeToChangelogFile="true"/>
+    <include file="manufacturer.add.service.info.columns.xml" relativeToChangelogFile="true"/>
+    <include file="category.add.service.info.columns.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
